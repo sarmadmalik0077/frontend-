@@ -1,0 +1,780 @@
+.drop_hov_notific:focus,
+.drop_hov_notific:hover {
+  background-color: unset;
+  color: unset;
+}
+.badge:empty {
+  display: unset;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.btn-custom.show {
+  border: none !important;
+}
+.btn-border-none:first-child:active {
+  border-color: unset !important;
+  border: none !important;
+}
+.btn-border-none::after {
+  display: none !important;
+}
+.btn-border-none:first-child:active:focus-visible {
+  box-shadow: none !important;
+}
+.remove_icon_drop::after {
+  display: none;
+}
+.list-group-item {
+  background-color: unset;
+  color: unset;
+}
+/* arrow show */
+.view-reconmended:hover {
+  color: var(--color-blue-50);
+}
+/* btn visited */
+.btn[target="hovbtn"]:hover {
+  color: var(--color-blue-50) !important;
+  border: 1px solid var(--color-blue-50);
+}
+.btn[target="formslider"]:hover {
+  border: 1px solid #2f2b4333 !important;
+}
+.search_header:hover {
+  background-color: var(--color-black-80) !important;
+}
+#sat-slid-srch-drop-btn .filter-btn-srch {
+  text-align: left;
+}
+#sat-slid-srch-drop-btn .filter-btn-srch::after {
+  float: right;
+  top: 8px;
+  position: relative;
+}
+/* media queries */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* index */
+  .wslider_1024_217 {
+    top: 3% !important;
+    width: 237px !important;
+}
+  .w-1282 {
+    width: 1145px !important;
+  }
+  /* index end */
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* index */
+  /* header */
+  /* footer */
+  .w-1282 {
+    width: 950px !important;
+  }
+  .w-820 {
+    width: 860px !important;
+  }
+  .h-126 {
+    height: 126px !important;
+  }
+  .w-126 {
+    width: 126px !important;
+  }
+  .wslider_1024_217 {
+    width: 217px !important;
+  }
+  .logo1024 {
+    width: 129.48px !important;
+    height: 43.1px !important;
+  }
+  .h1024-28 {
+    height: 28px !important;
+  }
+  .pt-3s1024 {
+    padding-top: 3px !important;
+  }
+  .res1024-align-self-start {
+    align-self: flex-start !important;
+  }
+  .fsr-22 {
+    font-size: 22px !important;
+  }
+  .fsr-18 {
+    font-size: 18px !important;
+  }
+  .fsr-14 {
+    font-size: 14px !important;
+  }
+  .fsr-12 {
+    font-size: 12px !important;
+  }
+  .fsr-10 {
+    font-size: 10px !important;
+  }
+  .fsr-8 {
+    font-size: 8px !important;
+  }
+  .img-res-1024 {
+    width: 207.29px !important;
+    height: 69px !important;
+  }
+  .hov-login-img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .res1024_register_img {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .img-bell1024 {
+    width: 20px !important;
+  }
+  .used_cars_imgs_1024 {
+    height: 42px !important;
+    width: 42px !important;
+  }
+  .car_listing_imgs1024 {
+    width: 40px !important;
+    height: 27px !important;
+  }
+  .mt-6_1024 {
+    margin-top: 6px !important;
+  }
+  .slider_form1024 .slick-prev {
+    left: 41% !important;
+  }
+  .slider_form1024 .slick-next {
+    right: 41% !important;
+  }
+  /* header widths */
+  .w-140h {
+    width: 130px !important ;
+  }
+  .w-105h {
+    width: 95px !important ;
+  }
+  .w-100h {
+    width: 90px !important ;
+  }
+  .w-70h {
+    width: 60px !important ;
+  }
+  .w-50h {
+    width: 45px !important ;
+  }
+  /* index end */
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  /* index */
+  /* header */
+  /* footer */
+  .w-1282 {
+    width: 950px !important;
+  }
+  .w-820 {
+    width: 860px !important;
+  }
+  .h-126 {
+    height: 126px !important;
+  }
+  .w-126 {
+    width: 126px !important;
+  }
+  .wslider_1024_217 {
+    width: 217px !important;
+  }
+  .logo1024 {
+    width: 129.48px !important;
+    height: 43.1px !important;
+  }
+  .h1024-28 {
+    height: 28px !important;
+  }
+  .pt-3s1024 {
+    padding-top: 3px !important;
+  }
+  .res1024-align-self-start {
+    align-self: flex-start !important;
+  }
+  .fsr-22 {
+    font-size: 22px !important;
+  }
+  .fsr-18 {
+    font-size: 18px !important;
+  }
+  .fsr-14 {
+    font-size: 14px !important;
+  }
+  .fsr-12 {
+    font-size: 12px !important;
+  }
+  .fsr-10 {
+    font-size: 10px !important;
+  }
+  .fsr-8 {
+    font-size: 8px !important;
+  }
+  .img-res-1024 {
+    width: 207.29px !important;
+    height: 69px !important;
+  }
+  .hov-login-img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .res1024_register_img {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .img-bell1024 {
+    width: 20px !important;
+  }
+  .used_cars_imgs_1024 {
+    height: 42px !important;
+    width: 42px !important;
+  }
+  .car_listing_imgs1024 {
+    width: 40px !important;
+    height: 27px !important;
+  }
+  .mt-6_1024 {
+    margin-top: 6px !important;
+  }
+  .slider_form1024 .slick-prev {
+    display: none !important;
+  }
+  .slider_form1024 .slick-next {
+    display: none !important;
+  }
+  /* header widths */
+  .w-140h {
+    width: 120px;
+  }
+  .w-105h {
+    width: 90px;
+  }
+  .w-100h {
+    width: 85px;
+  }
+  .w-70h {
+    width: 60px;
+  }
+  .w-50h {
+    width: 40px;
+  }
+  /* index end */
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* index */
+  /* header */
+  /* footer */
+  .w-1282 {
+    width: 950px !important;
+  }
+  .w-820 {
+    width: 860px !important;
+  }
+  .h-126 {
+    height: 126px !important;
+  }
+  .w-126 {
+    width: 126px !important;
+  }
+  .wslider_1024_217 {
+    display: none !important;
+  }
+  .logo1024 {
+    width: 97.11px !important;
+    height: 32.32px !important;
+  }
+  .h1024-28 {
+    height: 28px !important;
+  }
+  .pt-3s1024 {
+    padding-top: 3px !important;
+  }
+  .res1024-align-self-start {
+    align-self: flex-start !important;
+  }
+  .fsr-22 {
+    font-size: 22px !important;
+  }
+  .fsr-18 {
+    font-size: 18px !important;
+  }
+  .fsr-14 {
+    font-size: 14px !important;
+  }
+  .fsr-12 {
+    font-size: 12px !important;
+  }
+  .fsr-10 {
+    font-size: 10px !important;
+  }
+  .fsr-8 {
+    font-size: 8px !important;
+  }
+  .img-res-1024 {
+    width: 207.29px !important;
+    height: 69px !important;
+  }
+  .hov-login-img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .res1024_register_img {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .img-bell1024 {
+    width: 20px !important;
+  }
+  .used_cars_imgs_1024 {
+    height: 42px !important;
+    width: 42px !important;
+  }
+  .car_listing_imgs1024 {
+    width: 40px !important;
+    height: 27px !important;
+  }
+  .mt-6_1024 {
+    margin-top: 6px !important;
+  }
+  .slider_form1024 .slick-prev {
+    display: none !important;
+  }
+  .slider_form1024 .slick-next {
+    display: none !important;
+  }
+  /* header widths */
+  .w-140h {
+    width: 110px;
+  }
+  .w-105h {
+    width: 80px;
+  }
+  .w-100h {
+    width: 80px;
+  }
+  .w-70h {
+    width: 50px;
+  }
+  .w-50h {
+    width: 30px;
+  }
+  /* index end */
+}
+/*//////////////////////////////////////////////// index page css //////////////////////////////////////////////*/
+/* modals */
+.new-home-page .input-groups {
+  display: flex;
+  flex-direction: column;
+}
+.new-home-page .input-icon-container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-white-50);
+  height: 46px;
+  align-items: center;
+  overflow: hidden;
+}
+.new-home-page .input-icon-container input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1em;
+  padding: 0.5em;
+  color: inherit;
+  flex: auto 1 1;
+  width: 100%;
+  border-radius: 0px;
+  background-color: transperant;
+}
+.new-home-page .input-icon-container input::placeholder {
+  color: var(--color-black-30);
+  font-family: var(--font-family-Lato);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+}
+.plc-style-modal::placeholder {
+  color: var(--color-black-30);
+  font-family: var(--font-family-Lato);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+}
+.plc-style-modal:focus {
+  box-shadow: unset !important;
+}
+/* navbar Dashboard */
+.sub-dropdown-item {
+  fill: var(--color-black-50);
+}
+.dashborad_icons {
+  fill: #7a7493;
+}
+.dashborad_bell_icons {
+  fill: var(--color-black-50);
+}
+.make_icon {
+  fill: var(--color-black-80);
+}
+.dropdown_content_header {
+  display: none;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  z-index: 6;
+}
+.border_dropdown_content_header {
+  position: absolute;
+  top: -3px;
+  left: -1px;
+  border: 1px solid var(--color-blue-50);
+}
+.hov-login-img {
+  width: 41px;
+  height: 41px;
+  object-fit: contain;
+  object-position: center;
+}
+/* country listing */
+.para-with h2 {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0em;
+}
+.plus_icon_clr {
+  fill: var(--color-black-40);
+}
+.active_clr_listing {
+  color: var(--color-blue-50) !important;
+  fill: var(--color-blue-50) !important;
+}
+.hov_flags_listing:hover {
+  border: 1px solid var(--color-black-40) !important;
+}
+.hov_flags_listing:hover span {
+  color: var(--color-blue-50) !important;
+}
+.para-with h2:before,
+h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid var(--color-black-20s);
+  margin: auto;
+}
+.para-with h2:before {
+  margin-right: 63px;
+}
+.para-with h2:after {
+  margin-left: 63px;
+}
+/* makes */
+.hov-makes:hover {
+  background-color: var(--color-white-500) !important;
+}
+/* seller */
+.hov-seller:hover {
+  color: var(--color-blue-70) !important;
+  text-decoration: underline !important;
+  /* border-bottom: 1px solid var(--color-blue-70) !important; */
+}
+/* slider form */
+.formsearch_Text::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-family-Lato);
+  color: #858a94 !important;
+}
+/* padding */
+/* x-axis */
+.px-10 {
+  padding-inline: 10px;
+}
+.px-8 {
+  padding-inline: 8px;
+}
+/* y-axis */
+.py-19 {
+  padding-block: 19px;
+}
+.py-12 {
+  padding-block: 12px;
+}
+.py-10 {
+  padding-block: 10px;
+}
+.py-8 {
+  padding-block: 8px;
+}
+.pb-5s {
+  padding-bottom: 5px;
+}
+.pa-27 {
+  padding: 27px;
+}
+.ps-25 {
+  padding-left: 35px;
+}
+/* margin-- */
+.ml-36 {
+  margin-left: 36px;
+}
+.mr-27 {
+  margin-right: 27px;
+}
+.mt-33 {
+  margin-top: 33px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-9 {
+  margin-top: 9px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+/* header widths */
+.w-140h {
+  width: 141px;
+}
+.w-105h {
+  width: 105px;
+}
+.w-100h {
+  width: 100px;
+}
+.w-70h {
+  width: 70px;
+}
+.w-50h {
+  width: 50px;
+}
+/* width-- */
+.w-1282 {
+  width: 1282px;
+}
+.w-820 {
+  width: 920px;
+}
+.w-685 {
+  min-width: 684px !important;
+}
+.w-361 {
+  width: 361px !important;
+}
+.w-336 {
+  min-width: 336px !important;
+  border-top: 2px solid var(--color-blue-50);
+}
+.w-327m {
+  min-width: 327px;
+}
+.w-313 {
+  width: 313px;
+}
+.w-300 {
+  min-width: 300px;
+}
+.w-253 {
+  width: 253px;
+}
+.w-251 {
+  min-width: 251px !important;
+  /* transform: translate(55px, 55px) !important; */
+  border-top: 2px solid var(--color-blue-50);
+}
+.w-180 {
+  width: 180px;
+}
+.w-52 {
+  width: 52px !important;
+}
+.w-8 {
+  width: 8px;
+}
+.w-71 {
+  border-radius: 0;
+  margin-left: 71px !important;
+  min-width: 71px !important;
+}
+.w-100-s {
+  border-radius: 0;
+  min-width: 100px !important;
+}
+.w-167 {
+  width: 175px;
+}
+/* height-- */
+.h-178 {
+  height: 178px;
+}
+.h-46 {
+  height: 46px;
+}
+.h-35 {
+  height: 35px;
+}
+.h-39 {
+  height: 39px;
+}
+.h-8 {
+  height: 8px;
+}
+/* img-- */
+.object_fit_cover {
+  object-fit: cover;
+}
+/* border-- radius-- */
+.br-top-blue-1 {
+  border-top: 1px solid var(--color-blue-50);
+}
+.br-alpha {
+  border: 1px solid #2f2b4333;
+}
+.br-none {
+  border-radius: 0px !important;
+}
+.br-6p {
+  border-radius: 6px;
+}
+.br-4p {
+  border-radius: 4px;
+}
+.br-3p {
+  border-radius: 3px;
+}
+.br-top-left-0 {
+  border-top-left-radius: 0;
+}
+.br-bottom-left-0 {
+  border-bottom-left-radius: 0;
+}
+.br-top-left-6 {
+  border-top-left-radius: 6px;
+}
+.br-bottom-left-6 {
+  border-bottom-left-radius: 6px;
+}
+/* border-- */
+.br-24 {
+  border-radius: 24px;
+}
+.brr-none {
+  border: none !important;
+}
+.brb-none {
+  border-bottom: none !important;
+}
+/* placeholder */
+.plc::placeholder {
+  color: var(--color-grey-200);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-500);
+}
+/* input focus */
+.plc.form-control:focus {
+  box-shadow: unset !important;
+}
+/* line height */
+.line-h-24 {
+  line-height: 24px;
+}
+.line-h-20 {
+  line-height: 24px;
+}
+/* positions */
+.bottom-ve13 {
+  bottom: -13%;
+}
+.left-80 {
+  left: 80%;
+}
+/* grid */
+.grid_5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.grid_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid_3_s {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 10px;
+}
+.grid_2_notify {
+  display: grid;
+  grid-template-columns: 15% 75%;
+  gap: 10px;
+}
+/* hover */
+.hov-login-img:hover {
+  border: 1px solid var(--color-black-100);
+}
+.hov-nav-items:hover p {
+  color: var(--color-blue-50) !important;
+  /* border-bottom: 2px solid var(--color-blue-50); */
+}
+.hov-nav-items:hover .dropdown_content_header {
+  display: block !important;
+}
+.hov-item-dd:hover a {
+  color: var(--color-blue-50) !important;
+}
+.hov-item-dd .dropdown-item:active {
+  color: unset;
+  background-color: unset;
+}
+.hov-item-dd:hover .dashborad_icons {
+  fill: var(--color-blue-50) !important;
+}
+.hov_sub_item_dd:hover .sub-dropdown-item {
+  fill: var(--color-blue-50) !important;
+}
+.hov_sub_item_dd:hover {
+  color: var(--color-blue-50);
+}
+.dashborad_bell_icons:hover {
+  fill: var(--color-black-20) !important;
+}
+.hov-footer:hover {
+  /* border-left: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6; */
+  color: var(--color-blue-50) !important;
+}
+.hov-menu-form li:hover {
+  color: var(--color-white-900);
+  background-color: var(--color-blue-50);
+}
+.drop_hov_notific:hover {
+  background-color: #80808017;
+}
+/* slider form dots and arrows */
+.slider_form .slick-prev {
+  left: 43%;
+  top: 105%;
+  z-index: 1 !important;
+}
+.slider_form .slick-next {
+  top: 105%;
+  right: 43%;
+  z-index: 1 !important;
+}
+.slider_form .slick-arrow {
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 50% !important;
+  border: 1px solid #5d6370 !important;
+}
+.slider_form .slick-dots {
+  bottom: -38px !important;
+}

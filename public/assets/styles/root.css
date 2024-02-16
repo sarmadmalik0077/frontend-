@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+:root {
+  --font-family-FontAwesome: FontAwesome !important;
+  --font-family-Lato: "Lato", sans-serif !important;
+  --font-family-SofiaPro: "Sofia Pro" !important;
+  --font-style-Italic: italic;
+  --color-white-900: #ffffff;
+  --color-white-600: #f7fbfb;
+  --color-white-500: #e5e7eb;
+  --color-white-50: #f6f6f8;
+  --color-black-pure: #000000;
+  --color-black-100: #020408;
+  --color-black-80: #0c1529;
+  --color-black-70: #080e1b;
+  --color-black-50: #353c4d;
+  --color-black-40: #5d6370;
+  --color-black-30: #858a94;
+  --color-black-20: #dcdae2;
+  --color-black-20s: #aeb1b8;
+  --color-black-10: #ced0d4;
+  --color-blue-70: #1c6a9b;
+  --color-blue-60: #2384c1;
+  --color-blue-50: #2a9fe8;
+  --color-grey-300: #cac8d4;
+  --color-grey-200: #2f2b434d;
+  --color-grey-100: #ededf1;
+  --color-purple-500: #7a7493;
+  --font-size-30: 1.875rem;
+  --font-size-24: 1.5rem;
+  --font-size-20: 1.25rem;
+  --font-size-18: 1.125rem;
+  --font-size-16: 1rem;
+  --font-size-14: 0.875rem;
+  --font-size-12: 0.75rem;
+  --font-size-10: 0.625rem;
+  --font-size-8: 0.5rem;
+  --font-weight-900: 900;
+  --font-weight-700: 700;
+  --font-weight-600: 600;
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+}
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../styles/fonts/sofia_pro/SofiaProSemiBoldAz.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font: inherit;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  text-rendering: optimizeSpeed;
+  font-family: var(--font-family-Lato), Arial, sans-serif;
+}
+h2 {
+  /* Heading */
+  font-family: var(--font-family-SofiaPro), Arial, sans-serif;
+}
+h4 {
+  font-family: var(--font-family-Lato), Arial, sans-serif;
+}
+/* font family */
+.ff-FontAwesome {
+  font-family: var(--font-family-FontAwesome);
+}
+.ff-Lato {
+  font-family: var(--font-family-Lato);
+}
+.ff-SofiaPro {
+  font-family: var(--font-family-SofiaPro);
+}
+/* font sizes */
+.fs-30 {
+  font-size: var(--font-size-30);
+}
+.fs-24 {
+  font-size: var(--font-size-24);
+}
+.fs-20 {
+  font-size: var(--font-size-20);
+}
+.fs-18 {
+  font-size: var(--font-size-18);
+}
+.fs-16 {
+  font-size: var(--font-size-16);
+}
+.fs-14 {
+  font-size: var(--font-size-14);
+}
+.fs-12 {
+  font-size: var(--font-size-12);
+}
+.fs-10 {
+  font-size: var(--font-size-10);
+}
+.fs-8 {
+  font-size: var(--font-size-8);
+}
+/* font weight  */
+.fw-900 {
+  font-weight: 900;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+/* borders */
+.border-dark-40 {
+  border: 1px solid var(--color-black-40);
+}
+.border-dark-20 {
+  border: 1px solid var(--color-black-20);
+}
+.border-dark-10 {
+  border: 1px solid var(--color-black-10);
+}
+.border-blue-50 {
+  border: 1px solid var(--color-blue-50);
+}
+.border-grey-300 {
+  border: 1px solid var(--color-grey-300);
+}
+.border-right-0 {
+  border-right: none !important;
+}
+/* bg colors */
+.bg-white-900 {
+  background-color: var(--color-white-900);
+}
+.bg-white-600 {
+  background-color: var(--color-white-600);
+}
+.bg-white-400 {
+  background-color: var(--color-white-50);
+}
+.bg-white-50 {
+  background-color: var(--color-white-50) !important;
+}
+.bg-black-900 {
+  background-color: var(--color-black-80);
+}
+.bg-blue-50 {
+  background-color: var(--color-blue-50);
+}
+.bg-grey-100 {
+  background-color: var(--color-grey-100);
+}
+/* text colors */
+/* white */
+.clr-white-900 {
+  color: var(--color-white-900) !important;
+}
+.clr-white-600 {
+  color: var(--color-white-600) !important;
+}
+.clr-white-500 {
+  color: var(--color-white-500);
+}
+.clr-white-50 {
+  color: var(--color-white-50);
+}
+/* black */
+.clr-black-100 {
+  color: var(--color-black-100);
+}
+.clr-black-80 {
+  color: var(--color-black-80);
+}
+.clr-black-70 {
+  color: var(--color-black-70);
+}
+.clr-black-50 {
+  color: var(--color-black-50);
+}
+.clr-black-40 {
+  color: var(--color-black-40);
+}
+.clr-black-30 {
+  color: var(--color-black-30);
+}
+.clr-black-20 {
+  color: var(--color-black-20);
+}
+.clr-black-20s {
+  color: var(--color-black-20s);
+}
+.clr-black-10 {
+  color: var(--color-black-10);
+}
+/* blue */
+.clr-blue-70 {
+  color: var(--color-blue-70);
+}
+.clr-blue-70s {
+  color: var(--color-blue-70) !important;
+}
+.clr-blue-60 {
+  color: var(--color-blue-60);
+}
+.clr-blue-60s {
+  color: var(--color-blue-60) !important;
+}
+.clr-blue-50 {
+  color: var(--color-blue-50);
+}
+/* grey */
+.clr-grey-300 {
+  color: var(--color-grey-300);
+}
+/* purple */
+.clr-purple-500 {
+  color: var(--color-purple-500);
+}
+/* ---active-deactivate-heart-butoon---- { */
+.heart-icon {
+  font-size: 26px;
+  height: 25px;
+  width: 26px;
+  cursor: pointer;
+  color: #ced0d4;
+}
+.heart-icon.active {
+  color: #ff0000;
+}
+.clr-grey-200 {
+  color: var(--color-grey-200);
+}
+.clr-grey-100 {
+  color: var(--color-grey-100);
+}
